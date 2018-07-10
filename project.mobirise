@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "name": "Site-07-10_2030",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "versionFirst": "4.7.8",
+    "uniqCompNum": 4,
+    "versionPublish": "4.7.8",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b>&nbsp;字  典 查詢</b></p><p><b><a href=\"https://cidian.18dao.net/\" target=\"_blank\">1.國語辭典 &nbsp;&nbsp;</a></b></p><p><b><br></b></p><p><b><a href=\"https://www.moedict.tw/%E8%90%8C\">2.萌典</a></b></p><p><b><br></b></p><p><b><a href=\"http://www.zdic.net/z/kxzd/\" target=\"_blank\">3.康熙字典 &nbsp;</a></b></p><p><b><br></b></p><p><b><a href=\"https://tw.18dao.net/%E6%BC%A2%E8%AA%9E%E8%A9%9E%E5%85%B8/%E7%B9%81\" target=\"_blank\">4.漢語詞典</a></b></p><p><b><br></b></p><p><b><a href=\"http://www.zdic.net/\" target=\"_blank\">&nbsp;5. 漢典</a></b></p><p><b><br></b></p><p><b><a href=\"https://ctext.org/dictionary.pl?if=gb\" target=\"_blank\">6.中國哲學漢字查詢</a></b></p><p><b><br></b></p><p><b><br></b></p><p><b><a href=\"http://www.shuowen.org/view/1231?jdfwkey=mtzti1\" target=\"_blank\">7.說文解字</a></b></p><p><b><br></b></p><p><b><a href=\"https://zh-classical.wikipedia.org/wiki/%E7%B6%AD%E5%9F%BA%E5%A4%A7%E5%85%B8:%E5%8D%B7%E9%A6%96\" target=\"_blank\">8.維基大典</a></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qXpm3nWFQd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-3"
+        }
+      ]
+    }
+  }
+}
